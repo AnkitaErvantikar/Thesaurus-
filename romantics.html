@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Review Website</title>
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E9EDC9;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.books {
+  flex-basis: 70%;
+}
+
+.books h2 {
+  margin-bottom: 10px;
+}
+
+.books ul {
+  list-style: none;
+  padding: 0;
+}
+
+.books li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.books img {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.books h3 {
+  margin: 0;
+  margin-bottom: 10px;
+
+}
+
+.books p {
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.books a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #A4BC92;
+  color: #fff;
+  text-decoration: none;
+}
+
+    .search {
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			width: 60%;
+			margin-right: 10px;
+			font-size: 16px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		.search-button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+    .container1 {
+			margin: 50px auto;
+			width: 80%;
+			max-width: 800px;
+			text-align: center;
+		}
+
+
+
+  </style>
+</head>
+<body>
+<div class="container1">
+  <form>
+    <input type="text" class="search" placeholder="Search...">
+    <button type="submit" class="search-button">Search</button>
+  </form>
+</div>
+ 
+  <div class="container">
+    <div class="books">
+      <ul>
+        <li>
+          <img src="images/pride and prejudice.jpeg" alt="the cover page of pride and prejudice">
+          <h3>pride and Prejudice</h3>
+          <p>Pride and Prejudice is a timeless classic that explores the complexities of love and society in 19th century England, and showcases Jane Austen's mastery of literary wit and social commentary.</p>
+          <a href="pride.html">Read Review</a>
+        </li>
+        <li>
+          <img src="images/romantics.jpeg" alt="cover page of it ends with us">
+          <h3>It Ends With Us</h3>
+          <p>It Ends With Us by Colleen Hoover is a powerful and emotional novel that deals with themes of love, loss, and abuse, and offers a thought-provoking perspective on the complexities of relationships.</p>
+          <a href="">Read Review</a>
+        </li>
+        <li>
+          <img src="images/me before you.jpeg" alt="Me Before You by Jojo Moyes">
+          <h3>Me Before You</h3>
+          <p>Me Before You by Jojo Moyes is a heartwarming and bittersweet novel that explores the relationship between a quadriplegic man and his caregiver, and offers a poignant commentary on love, life, and dignity.</p>
+          <a href="me.html">Read Review</a>
+        </li>
+        <li>
+          <img src="images/walk.jpeg" alt="A Walk to Remember by Nicholas Sparks">
+          <h3>A Walk to Remember</h3>
+          <p>A Walk to Remember by Nicholas Sparks is a beautiful and touching novel that tells the story of a teenage couple facing adversity and finding love, and offers a powerful message about the importance of living life to the fullest.
+          </p>
+          <a href="me.html">Read Review</a>
+        </li>
+        <li>
+          <img src="images/notebook.jpeg" alt="The Notebook by Nicholas Sparks">
+          <h3>The Notebook</h3>
+          <p>The Notebook by Nicholas Sparks is a timeless and heartwarming love story that captures the essence of true love and offers a poignant reminder of the power of memory and the importance of cherishing the ones we love.
+          </p>
+          <a href="me.html">Read Review</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>

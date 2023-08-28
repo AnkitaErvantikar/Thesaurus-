@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Review Website</title>
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E9EDC9;  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.books {
+  flex-basis: 70%;
+}
+
+.books h2 {
+  margin-bottom: 10px;
+}
+
+.books ul {
+  list-style: none;
+  padding: 0;
+}
+
+.books li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.books img {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.books h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.books p {
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.books a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #A4BC92;
+  color: #fff;
+  text-decoration: none;
+}
+
+.search {
+            padding: 10px;
+			border: none;
+			border-radius: 5px;
+			width: 60%;
+			margin-right: 10px;
+			font-size: 16px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		.search-button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+    .container1 {
+			margin: 50px auto;
+			width: 80%;
+			max-width: 800px;
+			text-align: center;
+		}
+
+  </style>
+</head>
+<body>
+ 
+    <div class="container1">
+        <form>
+          <input type="text" class="search" placeholder="Search...">
+          <button type="submit" class="search-button">Search</button>
+        </form>
+    </div>
+  
+  <div class="container">
+    <div class="books">
+
+      <ul>
+        <li>
+          <img src="images/horror 1 (1).jpeg" alt="Dracula cover page">
+          <h3>Dracula</h3>
+          <p>
+            "Dracula" by Bram Stoker is a classic horror novel that popularized the vampire mythos and remains a chilling tale of suspense and terror. It is a must-read for fans of the horror genre and a defining work of gothic literature.</p>
+          <a href="#">Read Review</a>
+        </li>
+        <li>
+          <img src="images/horror 2.jpeg" alt="Frankenstein cover page">
+          <h3>Frankenstein</h3>
+          <p>"Frankenstein" by Mary Shelley is a haunting exploration of the dangers of ambition and science. It is a timeless masterpiece that delves into the complexities of human nature and the consequences of our actions.</p>
+          <a href="#">Read Review</a>
+        </li>
+        <li>
+          <img src="images/horror 3.jpeg" alt="The Haunting of Hill House cover page">
+          <h3>The Haunting of Hill House</h3>
+          <p>"The Haunting of Hill House" by Shirley Jackson is a masterpiece of psychological horror that is both subtle and unnerving. With its eerie atmosphere and expertly crafted characters, it is a must-read for fans of the genre.</p>
+          <a href="#">Read Review</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

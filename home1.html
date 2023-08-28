@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search and Genres</title>
+	<style>
+		body {
+			background-color: #f0f0f0;
+			background-image: url(images/home.png);
+		}
+		h1{
+			background: linear-gradient(to top, rgba(245, 218, 218, 0.596)50%,rgba(244, 223, 223, 0.61)50%);
+			width: fit-content;
+			position: relative; left: 250px;
+		}
+		.container {
+			margin: 50px auto;
+			width: 80%;
+			max-width: 800px;
+			text-align: center;
+		}
+
+		.search {
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			width: 60%;
+			margin-right: 10px;
+			font-size: 16px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		.search-button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		.genres {
+  			display: flex;
+  			justify-content: center;
+  			align-items: center;
+		}
+
+		.genre-item {
+  			margin: 0 10px;
+  			text-decoration: none;
+		}
+
+		.genre-item img {
+  			width: 100px;
+ 			height: 100px;
+  			border-radius: 80%;
+			border: 2px solid black;
+	  		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Search and Genres</h1>
+		<form>
+			<input type="text" class="search" placeholder="Search...">
+			<button type="submit" class="search-button">Search</button>
+		</form>
+		<br>
+		<div class="genres">
+			<a href="horror.html" class="genre-item"><img src="images/horror.jpeg" alt="horror"></a>
+			<a href="comedy.html" class="genre-item"><img src="images/comedy.png" alt="Comedy"></a>
+			<a href="romantics.html" class="genre-item"><img src="images/romantics.jpeg" alt="romantics"></a>
+			<a href="sci-fi.html" class="genre-item"><img src="images/sci-fi.jpeg" alt="sci-fi"></a>
+			<a href="non-fiction.html" class="genre-item"><img src="images/non-fiction.jpeg" alt="non-fiction"></a>
+			<a href="action.html" class="genre-item"><img src="images/mystery-thriller.jpeg" alt="mystery-thriller"></a>
+		  </div>
+	</div>
+</body>
+</html>
